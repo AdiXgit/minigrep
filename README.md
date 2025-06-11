@@ -13,3 +13,21 @@ A simple command-line tool written in Rust for searching for a query string in a
 ```bash
 cargo run -- <QUERY> <FILENAME>
 ```
+Example:
+
+```bash
+cargo run -- to poem.txt
+To run in case-insensitive mode, set the CASE_INSENSITIVE environment variable:
+```
+bash
+CASE_INSENSITIVE=1 cargo run -- to poem.txt
+Building
+To build the project, ensure you have Rust installed, then run:
+
+bash
+cargo build
+Running Tests
+You can run the tests using:
+
+bash
+cargo test
