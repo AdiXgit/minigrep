@@ -17,11 +17,15 @@ Example:
 
 ```bash
 cargo run -- to poem.txt
-To run in case-insensitive mode, set the CASE_INSENSITIVE environment variable:
 ```
-bash
+
+To run in case-insensitive mode, set the CASE_INSENSITIVE environment variable:
+```bash
 CASE_INSENSITIVE=1 cargo run -- to poem.txt
-Building
+```
+---
+
+## Building
 To build the project, ensure you have Rust installed, then run:
 
 bash
