@@ -1,38 +1,58 @@
 # minigrep
 
 A simple command-line tool written in Rust for searching for a query string in a file. Inspired by the classic `grep` utility, `minigrep` is a lightweight alternative for basic search needs.
----
+
 ## Features
 
 - Search for a string in a text file
 - Case-sensitive and case-insensitive search modes
 - Simple and easy-to-understand codebase
----
+
 ## Usage
 
 ```bash
 cargo run -- <QUERY> <FILENAME>
 ```
+
+- `<QUERY>`: The string to search for.
+- `<FILENAME>`: The path to the file to search in.
+
 Example:
 
 ```bash
 cargo run -- to poem.txt
 ```
 
-To run in case-insensitive mode, set the CASE_INSENSITIVE environment variable:
+To run in case-insensitive mode, set the `CASE_INSENSITIVE` environment variable:
+
 ```bash
 CASE_INSENSITIVE=1 cargo run -- to poem.txt
 ```
----
+
 ## Building
-To build the project, ensure you have Rust installed, then run:
+
+To build the project, ensure you have [Rust](https://www.rust-lang.org/tools/install) installed, then run:
 
 ```bash
 cargo build
 ```
 
 ## Running Tests
+
 You can run the tests using:
+
 ```bash
 cargo test
 ```
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+- [AdiXgit](https://github.com/AdiXgit)
+
+---
+
+Inspired by the [Rust Programming Language Book](https://doc.rust-lang.org/book/ch12-00-an-io-project.html).
