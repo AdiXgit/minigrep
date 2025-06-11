@@ -45,14 +45,4 @@ You can run the tests using:
 cargo test
 ```
 
-## License
 
-This project is licensed under the MIT License.
-
-## Author
-
-- [AdiXgit](https://github.com/AdiXgit)
-
----
-
-Inspired by the [Rust Programming Language Book](https://doc.rust-lang.org/book/ch12-00-an-io-project.html).
