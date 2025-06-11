@@ -23,15 +23,16 @@ To run in case-insensitive mode, set the CASE_INSENSITIVE environment variable:
 ```bash
 CASE_INSENSITIVE=1 cargo run -- to poem.txt
 ```
----
 
 ## Building
 To build the project, ensure you have Rust installed, then run:
 
-bash
+```bash
 cargo build
-Running Tests
-You can run the tests using:
+```
 
-bash
+##Running Tests
+You can run the tests using:
+```bash
 cargo test
+```
